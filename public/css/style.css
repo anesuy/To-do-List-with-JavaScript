@@ -1,0 +1,124 @@
+html{
+    background-color: #FFA6DC;
+    background-image: -webkit-linear-gradient(65deg, #FFA6DC 50%, #FAD8EC 50%);
+    min-height: 100vh;
+    font-family: 'calibri';
+}
+
+h1{
+    color: #FFFFFF;
+    padding: 10px;
+}
+
+.box{
+    max-width: 500px;
+    margin: 50px auto;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+}
+
+#heading{
+    background-color: #F886CB;
+    text-align: center;
+}
+
+.item{
+    min-height: 70px;
+    display: flex;
+    text-align: center;
+    border-bottom: 1px solid #F1F1F1;
+    flex-wrap: wrap
+}
+
+.item:last-child{
+    border-bottom: 0;
+}
+
+input:checked+p{
+    text-decoration: line-through;
+    text-decoration-color: #FD66C1;
+}
+
+input[type="checkbox"]{
+    margin: 20px;
+}
+
+p{
+    margin: 0;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 200;
+    color: #00204A;
+}
+
+form.item{
+    text-align: center;
+    margin-left: 20px;
+}
+
+button{
+    min-height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border-color: transparent;
+    background-color: #FD66C1;
+    color: #FFFFFF;
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 6px;
+    border-width: 0;
+    margin: 10px auto;
+    margin-inline-end:20px;
+}
+
+button.delete{
+    min-height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    border-color: transparent;
+    background-color: #FD66C1;
+    color: #FFFFFF;
+    font-size: 10px;
+    text-align: center;
+    padding-bottom: 6px;
+    border-width: 0;
+    margin-inline-end:10px;
+}
+
+
+input[type="text"]{
+    text-align: center;
+    height: 60px;
+    top: 10px;
+    border: none;
+    background: transparent;
+    font-size: 20px;
+    font-weight: 200;
+    width: 313px;
+    font-family: "calibri";
+    font-style: bold;
+
+}
+
+input[type="text"]:focus{
+    outline: none;
+    box-shadow: inset 0 -3px 0 0 #FD66C1;
+}
+
+::placeholder{
+    color: grey;
+    opacity: 1;
+}
+
+footer{
+    color:  #3D3B3E;
+    text-align: center;
+    font-family: "calibri";
+}
+
+.rodape{
+    color:  #3D3B3E;
+    text-align: center;
+    font-family: "calibri";
+}
