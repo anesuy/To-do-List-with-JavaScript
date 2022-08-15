@@ -8,3 +8,5 @@ To do list with the fundamentals of:
 - Express;
 - Body-Parser;
 - npm;
+- MongoDB;
+
